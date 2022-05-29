@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(14, 14, 14);
+}
+
+h1, h2 {
+    color: rgb(240, 240, 240);
+}
+
+#home-div {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(61, 61, 61);
+}

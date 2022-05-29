@@ -1,0 +1,30 @@
+.navbar-custom {
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.navbar-brand {
+    color:#C03221;
+}
+
+.navbar-custom .nav-item.active .nav-link {
+    color: black;
+}
+.nav-link {
+    color:rgb(128, 128, 128);
+}
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    background-color: #C03221;
+    color: #F7F7FF;
+}
+
+#resume-link-div {
+    border: 1px solid black;
+    color: white;
+    background-color: rgb(84, 94, 117);
+    border-radius: 4px;
+}
+
+#resume-link-text {
+    color: white;
+}
