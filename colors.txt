@@ -1,5 +1,0 @@
-#C03221 - orange
-#F7F7FF - white
-#F2D0A4 - cream
-#545E75 - blue
-#2F2F2F - black

@@ -1,13 +1,17 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block content %}
 
-<div>
-    <p class = "center">Name:</p>
+<div class="mx-auto text-center w-50 bordered">
+    <h2 class = "center">Alejandro Rodriguez</h2>
+    <hr>
+    <p class = "center">Skills</p>
 
-    <p class = "center">Skills:</p>
+    <p class = "center">Projects</p>
 
-    <p class = "center">Projects:</p>
+    <a href="https://github.com/Alexrodriguez2090/python-chess"><img src="{% static 'images/chess-c.jpg' %}", width="25%"></a>
+    <a href="https://github.com/aliishaq11/PokeDiscordBot"><img src="{% static 'images/pk-c.jpg' %}", width="25%"></a>
 </div>
 
 {% endblock %}
