@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="mx-auto text-center w-25 bordered">
+    <h1>Blog Posts:</h1>
+</div>
+
+
+{% for post in posts %}
+    <div class="mx-auto text-center w-50 bordered">
+        <h2>{{ post.title }}</h2>
+        <p>Date Posted: {{ post.date }}</p>
+        <p>{{ post.body }}</p>
+    </div>
+{% endfor %}
+
+{% endblock %}
