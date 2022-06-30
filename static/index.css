@@ -2,7 +2,7 @@ body {
     background-color: rgb(14, 14, 14);
 }
 
-h1, h2, p {
+h1, h2, h3, p, li {
     color: rgb(240, 240, 240);
 }
 
@@ -10,10 +10,4 @@ h1, h2, p {
     border: 2px solid black;
     border-radius: 5px;
     background-color: rgb(61, 61, 61);
-}
-
-img {
-    border: 3px solid black;
-    margin-right: 10px;
-    margin-left: 10px;
 }

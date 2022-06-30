@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<script src="{% static 'api-calls.js' %}"></script>
+<link rel="stylesheet" href="{% static 'api-calls.css' %}"/>
+
+<div class="mx-auto text-center w-50 bordered">
+    <h2 id="pokemonName">Click button to start</h2>
+    <div id="pokemonSprite"></div>
+    <hr>
+    <button id="getPokemon" onclick="getPokemon();">Get Pokemon</button>
+
+    <p>API thanks to <a href="https://pokeapi.co/" target="_blank">pokeapi.co</a></p>
+</div>
+{% endblock %}

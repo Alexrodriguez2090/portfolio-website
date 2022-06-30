@@ -1,0 +1,14 @@
+button {
+    border-radius: 5px;
+    padding: 1%;
+    border: none;
+    background-image: linear-gradient(to bottom right, rgb(236, 119, 76), rgb(255, 39, 10));
+}
+
+hr {
+    display: none;
+}
+
+#pokemonSprite {
+    height: 96px;
+}

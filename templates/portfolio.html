@@ -2,13 +2,19 @@
 {% load static %}
 
 {% block content %}
+<link rel="stylesheet" href="{% static 'portfolio.css' %}"/>
 
 <div class="mx-auto text-center w-50 bordered">
-    <h2 class = "center">Alejandro Rodriguez</h2>
+    <h2 class="center">Alejandro Rodriguez</h2>
     <hr>
-    <p class = "center">Skills</p>
+    <h3 class="center">Skills</h3>
+    <ul>
+        <li>Languages: Python and Java skills.</li>
+        <li>Database: Practical MongoDB and SQL knowledge.</li>
+        <li>Worked collaborative groups in Scrum/Agile methodology.</li>
+    </ul>
 
-    <p class = "center">Projects</p>
+    <h3 class="center">Projects</h3>
 
     <a href="https://github.com/Alexrodriguez2090/python-chess"><img src="{% static 'images/chess-c.jpg' %}", width="25%"></a>
     <a href="https://github.com/aliishaq11/PokeDiscordBot"><img src="{% static 'images/pk-c.jpg' %}", width="25%"></a>
